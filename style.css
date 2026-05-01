@@ -1,0 +1,93 @@
+/* --- Styles Généraux --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border: 2px solid #00a0e3;
+    padding: 15px;
+}
+
+/* --- Header & Nav --- */
+header .logo { height: 70px; }
+.slogan { color: #570404; font-weight: bold; font-style: italic; margin-top: -5px; }
+
+nav { border-top: 2px solid #00a0e3; border-bottom: 2px solid #00a0e3; padding: 10px 0; margin: 10px 0; }
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: space-around; }
+nav ul li a { text-decoration: none; color: #550707; font-weight: bold; font-size: 15px; }
+nav ul li a.active { color: #07284d; border-bottom: 2px solid #042f5e; }
+
+.banner img { width: 100%; height:auto; display: block; border: 1px solid #ccc; }
+
+/* --- Mise en page (2 colonnes) --- */
+.main-content { display: flex; gap: 40px; margin-top: 150px; min-height: 400px; }
+.main-content-full { padding: 20px 0; } /* Pour les pages sans sidebar */
+
+.welcome-text, .presentation-text, .formations-text { flex: 2; text-align: justify; }
+.sidebar { flex: 1; display:inline-flex; }
+.sidebar-box { border: 1px solid #ccc; padding: 15px; background: #f9f9f9; border-radius: 5px; width: 230px; color: #ad2ef7;}
+
+/* --- Tableaux (Page Formations) --- */
+.formation-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+.formation-table th, .formation-table td { border: 1px solid #a1a1a1; padding: 10px; text-align: center; }
+.formation-table  { background-color: #f5aea8; }
+
+/* --- Formulaire (Page Contact) --- */
+.contact-info, .contact-form { flex: 1; }
+.contact-form form { display: flex; direction: column; gap: 10px; display: grid; }
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-form button {
+    background: #eee;
+    border: 1px solid #999;
+    padding: 5px 15px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+footer { margin-top: 30px; padding-top: 20px; border-top: 2px solid #034c6b; }
+.footer-columns { display: flex; justify-content: space-between; font-size: 13px; }
+.footer-col h4 { color: #063568; margin-bottom: 10px; }
+.footer-col ul { list-style: none; padding: 0; }
+.footer-col ul li a { text-decoration: none; color: #333; line-height: 1.8; }
+.copyright, .phone, .email { color: #033469; font-weight: bold; margin: 5px 0; }
+
+h2, h3 { color: #333; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+.DG_ENASTIC{ 
+    float: left ;
+    width: 199px;
+    height: 250px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.corps{
+    display: flex;
+    justify-self: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.log{
+   width:300px; 
+}
+.banner{
+width: auto;
+height:450px;
+}
+.bannere{
+    width: auto;
+    height:450px;
+}
